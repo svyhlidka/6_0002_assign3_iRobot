@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cf4b3a63-5b47-4640-b4d7-ed1893f52454</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>_6_0002_assign3_iRobot.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +22,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="_6_0002_assign3_iRobot.py" />
+    <Compile Include="ps3.py" />
+    <Compile Include="ps3_tests_f16.py" />
+    <Compile Include="ps3_verify_movement27.py" />
+    <Compile Include="ps3_visualize.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MIT6_0002F16_ProblemSet3.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
